@@ -22,7 +22,7 @@ int main() {
         cout << "- ";
         //mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
-        //loop akan berhenti ketika anada memasukan q
+        //loop akan berhenti ketika anada memasukan q 
         if (baris == "q") break;
         // menulis dan memasukan nilai dari 'baris' ke dalam file
         outfile << baris << endl;
